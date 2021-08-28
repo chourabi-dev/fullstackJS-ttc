@@ -1,0 +1,109 @@
+/* all of the h1 elements 0 * */
+h1{
+    color: blue;
+}
+
+p{
+    color: coral;
+}
+
+/*select by id => #  0 1 */
+#my-title{
+    color: yellow;
+}
+
+#my-para{
+    color: yellow;
+}
+
+/* select by class 0 * */
+
+.my-title{
+    color: green;
+}
+
+.size-20{
+    font-size: 20px;
+}
+
+
+/* select by attr */
+
+[type="text"]{
+    color: red;
+}
+
+
+.square{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid;
+    margin: 25px; 
+}
+
+.my-para{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.mydiv{
+    height: 148px;
+    width: 100%;
+    background-color: #ececec;
+    border-radius: 5px;
+    background-image: url(https://th.bing.com/th/id/R.8469bf4…?rik=g6Y2Aq7ZY9CbrQ&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+.table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    border-right: 0;
+    border-left: 0;
+}
+
+.table > tbody > tr > td{
+    border-bottom: 1px solid;
+    padding: 5px 20px 5px 20px;
+}
+
+.table > thead > tr{
+    background-color: #03a9f4;
+}
+
+.table > thead > tr > th{
+    color: white;
+    padding: 5px 20px 5px 20px;
+    text-transform: capitalize;
+}
+
+.table> tbody > tr:nth-child(2n + 1 ) {
+    background-color: #ddd;
+}
+
+body{
+    margin: 0;
+}
+.block1{
+    display: inline-block;
+    width: 30%;
+}
+
+.block2{
+    display: inline-block;
+    width: 30%;
+}
+
+.block3{
+    display: inline-block;
+    width: 30%;
+}
