@@ -1,0 +1,182 @@
+.my-div{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+
+    transition: all  0.5s;
+}
+
+.my-div:hover{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+}
+
+.my-banner{
+    background-color: #ff9800;
+    padding: 25px;
+    border-radius: 7px;
+    transition:  all 0.5s ease-in-out;
+}
+.my-banner > h1 {
+    color: white;
+}
+
+.my-banner > p {
+    color: white;
+}
+
+.my-banner:hover{
+    padding: 25px;
+    border-radius: 7px;
+    border: 1px solid #ff9800;
+    background-color: white;
+}
+
+
+.my-banner:hover > h1 { 
+    color: black;
+}
+
+.my-banner:hover > p { 
+    color: black;
+}
+
+
+.bottom-button{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: chartreuse;
+
+    height: 25px;
+    width: 100px;
+    transition: all 1s ease-in-out;
+}
+
+.bottom-button > p {
+    display: none;
+}
+
+.bottom-button > span{
+    display: block;
+}
+
+.bottom-button:active{
+    width: 80%;
+    height: 80vh;
+}
+
+.bottom-button:active > span{
+    display: none;
+}
+
+.bottom-button:active > p{
+    display: block;
+}
+
+
+.my-input{
+    transition: width 0.5s ease-in-out;
+}
+
+.my-input:focus{
+    width: 100%;
+}
+
+
+
+/*********************** animations ************************/
+
+@keyframes homeBlockChange {
+    0% { background-color: blue;  }
+    33% { background-color: yellow; }
+    66% { background-color: red; }
+    100% { background-color: blue; }
+    
+}
+
+
+
+.home-block{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    animation-name: homeBlockChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes fromLeft {
+    0% { margin-left:  -100%; }
+    100% { margin-left: 0; } 
+}
+
+
+.a-t-1{
+    animation-duration: 1s;
+}
+
+.a-t-2{
+    animation-duration: 2s;
+}
+
+.a-t-3{
+    animation-duration: 3s;
+}
+
+.a-t-4{
+    animation-duration: 4s;
+}
+
+.enter-from-left{
+    width: 100%;
+    animation-name: fromLeft;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+
+}
+
+
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.avatar > img{
+    width: 100%;
+}
+
+@keyframes conntectedUser {
+    0% {     box-shadow: 0px 0px 0px 0px #8bc34a; }
+    50% {     box-shadow: 0px 0px 30px 0px #8bc34a; }
+    100% {     box-shadow: 0px 0px 0px 0px #8bc34a; }
+    
+    
+}
+
+.avatar.connected > .status{
+    position: absolute;
+    background-color: #cddc39;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    border-radius: 50%;
+    border: 5px solid white;
+    animation-name: conntectedUser;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.bg-connected{
+    animation-name: conntectedUser;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
