@@ -1,0 +1,46 @@
+.intro{
+    text-align: center;
+    padding: 15px;
+}
+.intro > img{
+    border-radius: 50%;
+}
+
+.intro > h1 > span{
+    color: orange;
+}
+
+.para{
+    color: #6b6b6b;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hightlights{
+    border-bottom: 1px solid grey;
+    margin: 25px;
+}
+
+.hightlights > h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.hightlights > ul {
+    list-style: none;
+}
+
+.hightlights > ul  > li {
+    color: gray;
+}
+
+footer{
+    text-align: center;
+    background-color: #ff5722;
+    padding: 50px;
+    color: white;
+    font-size: 22px;
+}
