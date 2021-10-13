@@ -4,4 +4,11 @@ Create React Project
 	
 	npm start
 
+	// add routing
+	npm install react-router-dom
+
 	
+
+API test tool
+
+https://www.postman.com/downloads/

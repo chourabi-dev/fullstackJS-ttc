@@ -1,0 +1,8 @@
+.danger-text{
+    color: red;
+    font-size: 18;
+}
+
+.danger-input  {
+    border: 1px solid red;
+}
