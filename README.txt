@@ -12,3 +12,11 @@ Create React Project
 API test tool
 
 https://www.postman.com/downloads/
+
+install node js
+https://nodejs.org/en/
+
+
+// add nodemon
+
+npm install -g nodemon
