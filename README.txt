@@ -25,3 +25,11 @@ npm install -g nodemon
 // download mongodb
 
 https://www.mongodb.com/try/download/community
+
+// installation mongo
+npm i mongodb
+
+
+// cryptage password
+
+npm i sha1
