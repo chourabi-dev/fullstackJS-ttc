@@ -20,3 +20,8 @@ https://nodejs.org/en/
 // add nodemon
 
 npm install -g nodemon
+
+
+// download mongodb
+
+https://www.mongodb.com/try/download/community
